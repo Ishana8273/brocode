@@ -7,7 +7,7 @@ public class Main3 {
 
         String [] name = {"vansh","ashwani","saket"};
 
-        ArrayList<Integer> food = new ArrayList<Integer>();
+        ArrayList<Integer> food = new ArrayList<>();
         food.add(1);
         food.add(2);
         food.add(4);
