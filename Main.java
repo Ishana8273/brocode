@@ -2,6 +2,26 @@
 import java.util.Scanner;
 
 public class Main {
+    Scanner scanner = new Scanner(System.in);
+    String name;
+    int age;
+    public void input () {
+
+
+        System.out.println("Enter ");
+        age = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println("Enter ");
+        name = scanner.nextLine();
+    }
+
+    void output(){
+        System.out.println(age);
+        System.out.println(name);
+    }
+
+
     public static void main(String[] args) {
 
 //
@@ -17,17 +37,11 @@ public class Main {
 //
  Scanner scanner = new Scanner(System.in);
 
- String name;
+ Main obj = new Main();
+ obj.input();
+ obj.output();
 
-        System.out.println("Enter ");
-        name = scanner.next();
 
-        if(name.equals("q") || name.equals("Q")){
-            System.out.println("Quit the game");
-        }
-        else{
-            System.out.println("you are now playing");
-        }
 
 
     }
